@@ -11,7 +11,7 @@ NOTE: If you new to i3 / Don't has much experience on config stuff, Recommend yo
 
 Package you may need to make it functional with my setup. (I will assume you already setup debian + i3 correctly and ready to use)
 ```
-sudo apt install polybar alacritty picom rofi alacritty fastfetch feh thunar lxappearance maim fonts-font-awesome
+sudo apt install polybar alacritty picom rofi alacritty fastfetch feh thunar lxappearance maim xclip fonts-font-awesome
 ```
 Optional, Bucklespring for keyboard sound effect that feel more nostalgia
 ```
@@ -111,10 +111,10 @@ Enjoy your like in Wasteland!
 ![fallout_color_amber](assets/showcases/colors.png)
 
 - My Default Key-Binding
-    - ``` WIN+SHIFT+E ``` = logout 
+    - ``` WIN+SHIFT+E ``` = logout
     - ``` WIN+SHIFT+W ``` = Close window/application
-    - ``` WIN+SHIFT+C ``` = Reload sway config file to see changes (Error might show, better fix what's wrong before move on)
-    - ``` WIN+D ``` = Search for app using wofi
+    - ``` WIN+SHIFT+C ``` = Reload i3 config file to see changes (Error might show, better fix what's wrong before move on)
+    - ``` WIN+D ``` = Search for app using rofi
     - ``` WIN+ENTER ``` = Open alacritty terminal
     - ``` WIN+Z ``` = Open your browser default with Firefox
 
