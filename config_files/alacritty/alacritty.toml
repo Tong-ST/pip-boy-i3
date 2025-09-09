@@ -1,0 +1,69 @@
+# Window settings
+[window]
+padding = { x = 5, y = 5 } # Padding around the terminal content
+opacity = 1.0 # Window opacity (0.0 - 1.0)
+decorations = "full" # Window decorations (full, transparent, none)
+
+[cursor]
+blink_interval = 700
+[cursor.style]
+shape = "Block"
+blinking = "On"
+
+# Font settings 
+# >>> Uncomment ALL LINE below to change font you have
+[font]
+size = 16.0
+[font.normal]
+family = "Fixedsys Excelsior 3.01"
+style = "Regular"
+[font.bold]
+family = "Fixedsys Excelsior 3.01"
+style = "Bold"
+[font.italic]
+family = "Fixedsys Excelsior 3.01"
+style = "Italic"
+[font.bold_italic]
+family = "Fixedsys Excelsior 3.01"
+style = "Bold Italic"
+
+
+# Color scheme
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#100B04" 
+foreground = "#F3D291"
+
+[colors.normal]
+black = '#000000'   
+red = '#ff5555'     
+green = '#41EC55'   
+yellow = '#FFB642' 
+blue = '#bd93f9'    
+magenta = '#ff79c6'  
+cyan = '#8be9fd'     
+white = '#f8f8f2'    
+
+[colors.bright]
+black = '#6272a4'   
+red = '#ff5555'     
+green = '#41EC55'   
+yellow = '#F3D291'  
+blue = '#bd93f9'    
+magenta = '#ff79c6'  
+cyan = '#8be9fd'     
+white = '#ffffff'    
+
+# Scrolling settings
+[scrolling]
+history = 10000 # Maximum number of lines in scrollback buffer
+multiplier = 3 # Number of lines scrolled per increment
+
+# Key bindings
+[keyboard]
+bindings = [
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }, # Spawn new instance
+  { key = "Space", mods = "Control|Shift", action = "ToggleViMode" }, # Toggle Vi mode
+]
