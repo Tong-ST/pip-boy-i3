@@ -29,6 +29,7 @@ if Not install Disable startup in i3 .config
     ```
     cp -r config_files/i3/ ~/.config/ 
     cp -r config_files/polybar/ ~/.config/
+    cp -r config_files/picom/ ~/.config/
     ```
 3. Install Required Fonts
     ```
@@ -57,7 +58,6 @@ if Not install Disable startup in i3 .config
     ```
     cp -r config_files/alacritty/ ~/.config/ 
     cp -r config_files/rofi/ ~/.config/
-    cp -r config_files/picom/ ~/.config/
     cp -r config_files/fastfetch/ ~/.config/
     ```
 
