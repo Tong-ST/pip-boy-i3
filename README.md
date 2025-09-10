@@ -63,12 +63,10 @@ if Not install Disable startup in i3 .config
 
     Also for `rofi` You should copy my theme to main rofi theme as well so you can select via rofi theme selector
     ```
-    sudo cp config_files/rofi/Pip-Boy-Amber.rasi /usr/share/rofi/themes/
+    sudo cp config_files/rofi/* /usr/share/rofi/themes/
     ```
-    OR link rofi .rasi file, So if you edit it will effect both
-    ```
-    sudo ln -sf ~/.config/rofi/Pip-Boy-Amber.rasi /usr/share/rofi/themes/Pip-Boy-Amber.rasi
-    ```
+    Also Just drop new rofi theme which is an Actually Pip-Boy why not? Now is default rofi in my setup 
+    ![Rofi_Boy](assets/showcases/PipActually.png)
 
 5. Check all .config files working correctly
     - Check i3 config, I have 4 files total in i3 config, That you should read and adjust to your setup `cd ~/.config/i3/`

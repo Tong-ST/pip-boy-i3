@@ -1,1 +1,2 @@
-@theme "~/.config/rofi/Pip-Boy-Amber.rasi"
+//@theme "~/.config/rofi/Pip-Boy-Amber.rasi"
+@theme "~/.config/rofi/Pip_actually.rasi"
