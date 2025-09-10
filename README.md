@@ -92,6 +92,7 @@ if Not install Disable startup in i3 .config
 - If using `flakpak` apps you might run into those app doesn't apply your system-wide theme/fonts/icons/etc. cause flatpak is sandbox
     - To make it respect you themes you can use app like `flatseal` that in manage permission per app in flatpak
     - In Flatseal app Go to `Filesystem` section and add `xdg-config/gtk-4.0:ro` and `xdg-config/gtk-3.0:ro`, Now that app will read from your GTK settings.ini
+    - use `gsettings set org.gnome.desktop.interface color-scheme prefer-dark` to set system-wide app prefer dark themes
     - Or you can override flatpak permission by command-line Don't need flatseal app, Just google to see how-to
 
 - Additional Update [CRT-Amber GRUB Theme](https://www.pling.com/p/1727268/) That's fallout terminal right there!

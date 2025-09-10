@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-# Main fixed workspaces
+# Main fixed workspaces 
+# If you have one Monitor and want to stick Nuke 󰚤 icon to the end, Just add like workspace 8 in and change it icon below
 workspaces=(1 2 3 4 5 6 7)
 
-# Icons/labels for fixed ones
+# Icons/labels
 declare -A icons=(
   [1]="S ."
   [2]="P ."
