@@ -77,7 +77,7 @@ if Not install Disable startup in i3 .config
         - I haven't study Bash yet, workspaces.sh script here it from my ChatGPT mate, As I understand i3 doesn't has a way to show empty workspace, So custom script might needed here
     
 ## FINISHING TOUCH
-1 .Setup GTK Themes, Icons, Cursor You can use different themes here, I just recommend some that i used
+1. Setup GTK Themes, Icons, Cursor You can use different themes here, I just recommend some that i used
 ![pip_fox_files](assets/showcases/pip_fox_files.png)
 - For matching theme i use [Sunrise-Dark](https://www.pling.com/p/1258305/) as you can see in Thunar   
 - For Icons I use [Besgnulinux Monochrome Orange](https://www.pling.com/p/2151189) to match basic orange Icons
@@ -93,6 +93,8 @@ if Not install Disable startup in i3 .config
     - To make it respect you themes you can use app like `flatseal` that in manage permission per app in flatpak
     - In Flatseal app Go to `Filesystem` section and add `xdg-config/gtk-4.0:ro` and `xdg-config/gtk-3.0:ro`, Now that app will read from your GTK settings.ini
     - use `gsettings set org.gnome.desktop.interface color-scheme prefer-dark` to set system-wide app prefer dark themes
+    - So my flatseal global look something like this:
+    ![flatseal_setup](assets/showcases/flatseal_example.png)
     - Or you can override flatpak permission by command-line Don't need flatseal app, Just google to see how-to
 
 - Additional Update [CRT-Amber GRUB Theme](https://www.pling.com/p/1727268/) That's fallout terminal right there!
