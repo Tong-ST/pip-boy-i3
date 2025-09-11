@@ -11,9 +11,9 @@ configuration {
 }
 
 * {
-    selected-normal-foreground:  #100B04;
-    foreground:                  #FFB642;
-    highlight-foreground:	 #F3D291;
+    selected-normal-foreground:  rgba(16, 11, 4, 65%);
+    foreground:                  rgba(255, 182, 66, 65 %);
+    highlight-foreground:	 rgba(243, 210, 145, 65 %);
     normal-foreground:           @foreground;
     alternate-normal-background: rgba ( 0, 0, 0, 0 % );
     selected-urgent-foreground:  rgba ( 2, 20, 63, 100 % );
@@ -22,7 +22,7 @@ configuration {
     active-foreground:           @highlight-foreground;
     selected-active-foreground:  rgba ( 2, 20, 63, 100 % );
     alternate-active-background: rgba ( 0, 0, 0, 0 % );
-    background:                  rgba ( 16, 11, 4, 55% );
+    background:                  rgba ( 16, 11, 4, 40% );
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 0, 0, 208, 0 % );
     selected-normal-background:  @foreground;
@@ -40,7 +40,7 @@ configuration {
 window {
     background-color: @background;
     border:           0;
-    padding:          450px 1170px 350px 420px;
+    padding:          450px 1170px 370px 430px;
     fullscreen:       true;
     background-image: url("Rofi_boy.png") ;
 }
@@ -69,7 +69,6 @@ element {
     padding: 1px ;
 }
 element-text {
-    background-color: inherit;
     text-color:       inherit;
 }
 element.normal.normal {
@@ -149,10 +148,8 @@ textbox-prompt-colon {
     text-color: @foreground;
 }
 
-element-icon {
+element-icon{
     padding:    4px 4px;
-    padding-right: 80px;
     size:       16px;
 }
-
 
