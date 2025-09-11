@@ -65,7 +65,7 @@ if Not install Disable startup in i3 .config
     ```
     sudo cp config_files/rofi/* /usr/share/rofi/themes/
     ```
-    Also Just drop new rofi theme which is an Actually Pip-Boy why not? Now is default rofi in my setup 
+    Also Just drop new rofi theme which is an Actually Pip-Boy why not? Now is default rofi in my setup / This tailor for 1920x1080 screen size GIMP File `assets/Rofi_pip_creator.xcf`
     ![Rofi_Boy](assets/showcases/PipActually.png)
 
 5. Check all .config files working correctly
